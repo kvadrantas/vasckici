@@ -18,12 +18,12 @@
 
 // CLOSE GAME
     document.querySelector('.close').addEventListener('click', function(){
-        document.querySelector('#zmogus-laimejo').textContent = `Žaidėjo pergalės: ${zmogausPergales}`;
-        document.querySelector('#kompiuteris-laimejo').textContent = `Kompiuterio pergalės: ${kompiuterioPergales}`;
-        document.querySelector('#lygiosios').textContent = `Lygiosios: ${lygiosios}`;
-        document.querySelector('#akmuo-pasirinktas').textContent = `Akmuo pasirinktas: ${akmuo}`;
-        document.querySelector('#popierius-pasirinktas').textContent = `Popierius pasirinktas: ${popierius}`;
-        document.querySelector('#zirkles-pasirinktos').textContent = `Žirklės pasirinktos: ${zirkles}`;
+        document.querySelector('#zmogus-laimejo').textContent = `Your wins: ${zmogausPergales}`;
+        document.querySelector('#kompiuteris-laimejo').textContent = `Computer wins: ${kompiuterioPergales}`;
+        document.querySelector('#lygiosios').textContent = `Draws: ${lygiosios}`;
+        document.querySelector('#akmuo-pasirinktas').textContent = `Stone total: ${akmuo}`;
+        document.querySelector('#popierius-pasirinktas').textContent = `Paper total: ${popierius}`;
+        document.querySelector('#zirkles-pasirinktos').textContent = `Scisors total: ${zirkles}`;
         document.querySelector('.navigation').style = 'display: none;';
         document.querySelector('.results').style = 'display: inline-block;'
     
@@ -135,17 +135,5 @@ function checkWinner() {
         document.querySelector('.player-score').textContent = `Draw!!!`;
         document.querySelector('.pc-score').textContent = `Draw!!!`;
     }
-console.log('Zmogus laimejo: ', zmogausPergales);
-console.log('Kompiuteris laimejo: ', kompiuterioPergales);
-console.log('Lygiosios: ', lygiosios);
-console.log('Akmuo pasirinktas: ', akmuo);
-console.log('Popierius pasirinktas: ', popierius);
-console.log('Zirkles pasirinktos: ', zirkles);
-if (zmogausPergales > kompiuterioPergales) {
-    console.log('Finalinis laimetojas: zmogus');
-} else if (kompiuterioPergales > zmogausPergales) {
-    console.log('Finalinis laimetojas: kompiuteris');
-} else { console.log('Lygioios'); }
-console.log('--------------------- ZAIDIMO PABAIGA --------------------------\n');
 
 }
