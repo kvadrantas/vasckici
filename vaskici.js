@@ -86,8 +86,8 @@ function checkWinner() {
 
 
     // KOMPIUTERIO PASIRINKIMAS
-    // var kompiuterioPasirinkimas = Math.trunc(Math.random() * 3 + 1);
-    var kompiuterioPasirinkimas = 2;
+    var kompiuterioPasirinkimas = Math.trunc(Math.random() * 3 + 1);
+    
 
     if (kompiuterioPasirinkimas === 1) {
         kompiuterioPasirinkimas = 'A';

@@ -1,0 +1,61 @@
+
+/* For big tabled to 1200px */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* For small tabled to big tablets from 767 to 1023px */
+@media only screen and (max-width: 1023px) {
+    .player-score,
+    .pc-score {
+        font-size: 70%;
+    }
+
+    .navigation img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .right-pane img,
+    .left-pane img {
+        display: inline-block;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .right-pane,
+    .left-pane {
+        display: inline-block;
+        height: 260px;
+    }
+
+    .player-scoretop,
+    .pc-scoretop {
+        display: inline-block;
+        padding: 0.1rem;
+        background-color: #fff;
+        border: .1rem solid #cfdbde;
+        border-radius: 100px;
+        line-height: 11px;
+    }
+}
+
+
+/* For small phones to small tablets from 481 to 767px */
+@media only screen and (max-width: 767px) {
+    .player-score,
+    .pc-score {
+        font-size: 70%;
+    }
+}
+
+
+/* For small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .player-score,
+    .pc-score {
+        font-size: 70%;
+    }
+}
