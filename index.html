@@ -7,10 +7,30 @@
     <link rel="stylesheet" href="./main.css">
     <title>Vaskici</title>
     <link rel="stylesheet" href="./queries.css">
+    <script>
+ function CloseWindow() {
+
+if (confirm("Close Window?")) {
+
+      window.close();
+
+}
+}
+    </script> 
 </head>
 <body>
     <div class="main">
-
+        <div class="results">
+            <div class = "fin-winner" id="finalinis-laimetojas"></div>
+            <div id="zmogus-laimejo"></div>
+            <div id="kompiuteris-laimejo"></div>
+            <div id="lygiosios"></div>
+            <div id="akmuo-pasirinktas"></div>
+            <div id="popierius-pasirinktas"></div>
+            <div id="zirkles-pasirinktos"></div>
+            <a href="./index.html">Repeat game!</a>
+            <a href="https://www.google.lt" >End game!</a>
+        </div>
         <div class="content">
             <div class="left-pane">
                 <div class = "player-scoretop">
@@ -27,7 +47,7 @@
                 <div class="pc-scoretop">
                     <div class="pc-score">
                 </div>
-                   
+                <div class="close">&#x2573;</div>
                 </div>
                 <div class="pc-pick"></div>
             </div>
@@ -36,7 +56,7 @@
             <ul>
                 <li><a href="#" id = 'paper'><img src="./img/paper2-min.jpg" alt="paper"></a></li>
                 <li><a href="#" id = 'scisors'><img src="./img/scisors-min.jpg" alt="scisors"></a></li>
-                <li><a href="#" id = 'stone'><img src="./img/stone-min.jpg" alt="stone"></a></li>
+                <li><a href="#" id = 'stone'><img src="./img/stone3-min.jpg" alt="stone"></a></li>
             </ul>
         </div>
     </div>
